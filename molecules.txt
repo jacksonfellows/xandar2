@@ -1,0 +1,25 @@
+Your first challenge...
+
+Given a chemical formula, e.g. NaCl (table salt) or C6H12O6 (glucose), output a
+table of each element followed its quantity. For the above examples, the output
+would be...
+
+Cl: 1
+Na: 1
+
+...and...
+
+C: 6
+H: 12
+O: 6
+
+...respectively. Beware of elements with two letter names (e.g. Na or Cl). Right
+now, your input data will not include formulae with parenthesis (glucose, for
+example, can be rewritten as 6(CH2O)). This complication will come in a later
+challenge.
+
+Your program should read molecules from molecules_data.txt and write the tables
+to molecules_solution.txt. There will be one molecular formula per line in
+the data file. Make sure to output the tables in the format
+[element]: [quantity], with the rows sorted alphabetically by element. To
+avoid confusion in the output file, write a blank line after each table.
